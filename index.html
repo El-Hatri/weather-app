@@ -10,12 +10,16 @@
 
 <body>
     <div class="container">
+        <img src="/images/116.png" alt="weather-icon">
         <h1>Weather App</h1>
         <input type="text" id="cityInput" placeholder="Enter city name">
         <button onclick="getWeather()">Get Weather</button>
         <div id="weatherInfo">
             <!-- Weather information will be displayed here -->
         </div>
+        <div class="credits"><a href="https://www.weatherapi.com/" title="Free Weather API">
+            <img src='//cdn.weatherapi.com/v4/images/weatherapi_logo.png' 
+            alt="Weather data by WeatherAPI.com" border="0"></a></div>
     </div>
     <!-- JavaScript file here -->
     <script src="api.js"></script>
